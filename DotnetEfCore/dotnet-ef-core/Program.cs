@@ -1,9 +1,32 @@
+using dotnet_ef_core.DataContext;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(options => {
+    options.UseMySQL(connectionString);
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+//copy stackoverflow.com/questions/72148071/how-to-connect-to-mysql-server-using-entity-framework-core
+//var connectionstring = builder.configuration.getconnectionstring("defaultconnection");
+//builder.services.adddbcontext<applicationdbcontext>(options => {
+//  options.usesqlserver(connectionstring);
+//);
+//var serverVersion = new MariaDbServerVersion(new Version(8, 0, 29));
+
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+//var serverVersion = new MySqlConnection(connectionString);
+//builder.Services.AddDbContext<ApplicationDbContext>(options => {
+//    options.UseMySQL(connectionString);
+//});
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
