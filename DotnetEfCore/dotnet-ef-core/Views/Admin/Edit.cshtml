@@ -1,0 +1,45 @@
+﻿@model dotnet_ef_core.DataContext.AdminEntity
+
+@{
+    ViewData["Title"] = "Admin Edit Data";
+}
+
+<h2>Edit Admin</h2>
+
+<form asp-action="Update" method="post">
+    @*<div class="form-group">
+        <label asp-for="Id">Id</label>
+        <input asp-for="Id" class="form-control">
+    </div>*@
+    
+    <input type="hidden" asp-for="Id"/>
+    
+    <div class="form-group">
+        <label asp-for="Name">Admin Name</label>
+        <input asp-for="Name" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Role">Role Code</label>
+        <input asp-for="Role" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="IdAudit">Id Audit</label>
+        <input asp-for="IdAudit" class="form-control">
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary">Update</button>
+        <button asp-action="GetAll" class="btn btn-sm btn-success">Back</button>
+    </div>
+    
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

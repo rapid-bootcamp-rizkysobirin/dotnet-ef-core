@@ -4,11 +4,18 @@ namespace dotnet_ef_core.DataContext
 {
     public class ApplicationDbContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            optionsBuilder.UseMySQL("server=localhost;database=ef_db;uid=root;pwd=;");
+			
         }
 
-        public DbSet<CategoryEntity> categories { get; set; }
+        public DbSet<CategoryEntity> CategoryEntities => Set<CategoryEntity>();
+        public DbSet<AssetEntity> AssetEntities => Set<AssetEntity>();
+
+        public DbSet<AdminEntity> AdminEntities => Set<AdminEntity>();
+        public DbSet<RequestEntity> RequestEntities => Set<RequestEntity>();
+        public DbSet<AuditEntity> AuditEntities => Set<AuditEntity>();
+        public DbSet<EmployeeEntity> EmployeeEntities => Set<EmployeeEntity>();
+        
     }
 }

@@ -1,0 +1,49 @@
+@model dotnet_ef_core.DataContext.AuditEntity
+@{
+    ViewData["Title"] = "Audit Edit Data";
+}
+
+<h2>Form Edit Audit</h2>
+
+<form asp-action="Update" method="post">
+    @*<div class="form-group">
+        <label asp-for="Id">Id</label>
+        <input asp-for="Id" class="form-control">
+    </div>*@
+    <input type="hidden" asp-for="Id"/>
+    
+    <div class="form-group">
+        <label asp-for="IdAsset">Asset Id</label>
+        <input asp-for="IdAsset" class="form-control">
+    </div>
+    <div class="form-group custom-control custom-checkbox">
+            <input asp-for="AntiVirus" type="checkbox" class="custom-control-input" id="customCheck1">
+            <label asp-for="AntiVirus" class="custom-control-label" for="customCheck1">Licensed Antivirus</label>
+        </div>
+        <div class="form-group custom-control custom-checkbox">
+            <input asp-for="OfficeLicense" type="checkbox" class="custom-control-input" id="customCheck1">
+            <label asp-for="OfficeLicense" class="custom-control-label" for="customCheck1">Licensed Office</label>
+        </div>
+        <div class="form-group custom-control custom-checkbox">
+            <input asp-for="WindowsLicense" type="checkbox" class="custom-control-input" id="customCheck1">
+            <label asp-for="WindowsLicense" class="custom-control-label" for="customCheck1">Licensed Windows</label>
+        </div>
+    <div class="form-group">
+        <label asp-for="Condition">Condition</label>
+        <input asp-for="Condition" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Validation">Validation</label>
+        <input asp-for="Validation" class="form-control">
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary">Update</button>
+        <button asp-action="GetAll" class="btn btn-sm btn-success">Back</button>
+    </div>
+    
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

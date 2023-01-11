@@ -1,0 +1,32 @@
+﻿@model dotnet_ef_core.DataContext.AdminEntity
+
+@{
+    ViewData["Title"] = "Admin Details";
+}
+
+<h2>Admin Detail</h2>
+<table class="table tab-content">
+    <tbody>
+    <tr>
+        <th>ID</th>
+        <td>@Model.Id</td>
+    </tr>
+    <tr>
+        <th>Admin Name</th>
+        <td>@Model.Name</td>
+    </tr>
+    
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Role Code</th>s
+        <td>@Model.Role</td>
+    </tr>
+    <tr>
+        <th>Audit ID</th>
+        <td>@Model.IdAudit</td>
+    </tr>
+    </tbody>
+</table>

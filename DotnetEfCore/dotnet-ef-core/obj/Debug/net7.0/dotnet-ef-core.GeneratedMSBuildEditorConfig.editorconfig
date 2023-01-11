@@ -16,12 +16,108 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\kontrak kerja\belajar.Net 3\dotnet-ef-core\DotnetEfCore\dotnet-ef-core
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Admin/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Admin/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Asset/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Asset/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Asset/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Asset/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Audit/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Audit/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Audit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Audit/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Category/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Category/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Employee/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Employee/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Request/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Request/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Request/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Request/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxHZXRBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/kontrak kerja/belajar.Net 3/dotnet-ef-core/DotnetEfCore/dotnet-ef-core/Views/Shared/Error.cshtml]

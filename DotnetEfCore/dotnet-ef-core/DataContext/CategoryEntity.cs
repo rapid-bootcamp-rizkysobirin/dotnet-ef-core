@@ -17,11 +17,7 @@ namespace dotnet_ef_core.DataContext
         public String CategoryName { get; set; }
 
         [Column("description")]
-        public String Decription { get; set; }
-
-        public CategoryEntity()
-        {
-        }
+        public String Description { get; set; }
     }
 
 }
